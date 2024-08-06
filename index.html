@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="style.css">
     <title>Alura Books</title>
 </head>
+
 
 <body>
     <header class="cabeçalho">
@@ -44,26 +48,36 @@
 
 
     <section class="banner">
-        <h2 class="banner__titulo"> Já sabe por onde começar?</h2>
-        <p class="banner__texto">Encontre em nossa estante o que precisa para o seu desenvolvimento</p>
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontrem nossa estante o que precisa para o seu desenvolvimento</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
+
+
     <section class="carrossel">
-        <div class="carrossel__titulo"> Novos lançamentos</div>
+        <div class="carrossel__titulo">Novos lançamentos</div>
+
+
         <!-- Slider main container -->
         <div class="swiper">
+
+
             <!-- If we need pagination -->
-
             <div class="swiper-pagination"></div>
-            <!-- Additional required wrapper -->
 
+
+            <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
+
+
                 <!-- Slides -->
-                <div class="swiper-slide"><img src="IMG/ApacheKafka.svg" alt="Livro sobre Apachekafka"></div>
+                <div class="swiper-slide"><img src="IMG/ApacheKafka.svg" alt="livro sobre ApacheKafka"></div>
                 <div class="swiper-slide"><img src="IMG/Liderança.svg" alt="Livro sobre Liderança"></div>
-                <div class="swiper-slide"><img src="IMG/Javascript.svg" alt="Livro sobre Liderança"></div>
-                <div class="swiper-slide"><img src="IMG/Guia Front-end.svg" alt="Livro sobre Acessibilidade"></div>
-                <div class="swiper-slide"><img src="IMG/Portugol.svg" alt="Livro sobre Acessibilidade"></div>
+                <div class="swiper-slide"><img src="IMG/Acessibilidade.svg" alt="Livro sobre Acessibilidade"></div>
+
+
+                <div class="swiper-slide"><img src="IMG/Guia Front-end.svg" alt="livro sobre ApacheKafka"></div>
+                <div class="swiper-slide"><img src="IMG/Portugol.svg" alt="Livro sobre Liderança"></div>
                 <div class="swiper-slide"><img src="IMG/Acessibilidade.svg" alt="Livro sobre Acessibilidade"></div>
             </div>
 
@@ -72,25 +86,80 @@
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
 
+
         </div>
+
+
         <div class="card">
             <div class="card__descricao">
                 <div class="descricao">
-                    <h2 class="descricao__titulo"> Talvez você possa se interessar por...</h2>
-                    <h3 class="descricao__titulo-livro">Angular 11 e Firebase</h3>
-                    <p class="descricao__texto">Construindo uma aplicacao integrada com a plataforma Google</p>
+                    <h2 class="descricao__titulo">Talves você possa se interessar por...</h2>
+                    <h3 class="descricao__titulo-livro">Angular 11 Firebase</h3>
+                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma Google</p>
                 </div>
                 <img src="IMG/Angular.svg" alt="Livro Angular">
             </div>
             <div class="card__botoes">
                 <ul class="botoes">
-                <li class="botoes__item"><img src="IMG/Favoritos.svg" alt="Favoritar livro"></li>
-                <li class="botoes__item"><img src="IMG/Compras.svg" alt="Colocar no carrinho de compras"></li>
+                    <li class="botoes__item"><img src="IMG/Favoritos.svg" alt="Favoritar Livro"></li>
+                    <li class="botoes__item"><img src="IMG/Compras.svg" alt="Colocar no carrinho de compras"></li>
                 </ul>
-                 <a href="#" class="botoes__ancora">saiba mais</a>
+                <a href="#" class="botoes__ancora">Saiba mais</a>
             </div>
         </div>
+
+
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <img src="IMG/Estrelinhas (1).png" class="estrela">
+                    <h2 class="descricao__titulo">Autora do Mês</h2>
+                    <h3 class="descricao__titulo-livro">Juliana Agarikov</h3>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana e especialista em Front-end
+                    </p>
+                </div>
+                <img src="IMG/Perfil-escritora 1.png" alt="Livro Angular">
+            </div>
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="IMG/Favoritos.svg" alt="Favoritar Livro"></li>
+                    <li class="botoes__item"><img src="IMG/Compras.svg" alt="Colocar no carrinho de compras"></li>
+                </ul>
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+        </div>
+
+
     </section>
+
+    <section class="topicos">
+        <h2 class="topico__titulos">TOPCOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos__lita">
+            <li class="topicos__item"><a href="#" class="topicos__link">Android</a></li>
+            <li class="topicos__item">
+                <a href="#" class="topicos">Marketing digital</a>
+            </li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Agile</a>
+            </li>
+            </li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Agile</a>
+            </li>
+            </li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Agile</a>
+            </li>
+            </li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Agile</a>
+            </li>
+            </li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Agile</a>
+            </li>
+            </li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Agile</a>
+            </li>
+
+        </ul>
+    </section>
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
@@ -101,7 +170,9 @@
                 el: ".swiper-pagination",
                 type: "bullets",
             }
-        });</script>
+        });
+    </script>
 </body>
+
 
 </html>
